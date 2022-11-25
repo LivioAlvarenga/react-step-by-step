@@ -3,8 +3,8 @@ import icons from "../data/footer.json";
 export default function Footer() {
   return (
     <footer className="w-full bg-secundaria text-base text-white">
-      <div className="flex flex-wrap items-center justify-center gap-5 px-5 py-5 lg:mx-auto lg:max-w-7xl lg:justify-between lg:px-0">
-        <ul className="mb-8 flex flex-wrap items-center justify-center gap-7 lg:mb-0">
+      <div className="flex flex-wrap items-center justify-center gap-5 px-5 py-7 lg:mx-auto lg:max-w-7xl lg:justify-between lg:px-0">
+        <ul className="mb-5 flex flex-wrap items-center justify-center gap-7 lg:mb-0">
           {icons.map((icon) => {
             return (
               <li className="group lg:hover:animate-bounce" key={icon.id}>

@@ -1,4 +1,4 @@
-import icons from "../data/footer.json";
+import icons from "../data/iconLink.json";
 
 export default function Footer() {
   return (

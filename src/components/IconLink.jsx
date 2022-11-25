@@ -8,7 +8,7 @@ export default function IconLink(props) {
       rel="noreferrer"
     >
       <img
-        className={`${props.height} cursor-pointer lg:duration-500 lg:ease-in-out lg:hover:scale-125`}
+        className={`${props.height} cursor-pointer duration-500 ease-in-out lg:scale-125 lg:hover:scale-150`}
         src={props.src}
         type={props.type ?? "image/svg+xml"}
         alt={props.alt ?? ""}

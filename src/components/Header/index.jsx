@@ -1,12 +1,12 @@
 import React from "react";
-import IconLink from "./IconLink";
+import IconLink from "../IconLink";
 
 export default function Header() {
   return (
     <header className="h-16 w-full bg-secundaria text-white">
       <div className="flex h-full items-center justify-between gap-2 px-5 lg:mx-auto lg:max-w-7xl lg:px-0">
         <IconLink
-          src="src/assets/images/react.svg"
+          src="src/components/Header/react.svg"
           alt="React Logo"
           height="h-[25px]"
           title="React Boas Praticas"
@@ -15,7 +15,7 @@ export default function Header() {
           React Boas Praticas
         </h1>
         <IconLink
-          src="src/assets/images/github.svg"
+          src="src/components/Header/github.svg"
           alt="Github Logo"
           height="h-[25px]"
           title="github Livio Alvarenga"

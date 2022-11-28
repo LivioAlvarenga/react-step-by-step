@@ -10,14 +10,9 @@ function App() {
 const name = 'Livio Alvarenga';
 const element = <h1>Olá, {name}</h1>;
   `;
-  const name = "Livio Alvarenga";
-  const element = <h1>Olá, {name}</h1>;
-
   const code1 = `
 const element1 = <h1>2 + 2 = {2+2}</h1>;
   `;
-  const element1 = <h1>2 + 2 = {2 + 2}</h1>;
-
   const code2 = `
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
@@ -34,14 +29,18 @@ const element = (
   </p>
 );
   `;
-  function formatName(user) {
-    return user.firstName + " " + user.lastName;
-  }
 
+  const name = "Livio Alvarenga";
+  const element = <h1>Olá, {name}</h1>;
+  const element1 = <h1>2 + 2 = {2 + 2}</h1>;
   const user = {
     firstName: "Livio",
     lastName: "Alvarenga",
   };
+
+  function formatName(user) {
+    return user.firstName + " " + user.lastName;
+  }
 
   return (
     <>
